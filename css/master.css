@@ -1,11 +1,17 @@
+html {
+  background-image: url("../img/index/index.jpg");
+    min-height: 100%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: arial;
+}
+
 body {
   margin: 0em;
   padding: 0em;
-
-  background-image: linear-gradient(to bottom, transparent 270px, rgb(32, 70, 140) 810px),
-    url("../img/index/index.jpg");
-
-  font-family: arial;
 }
 
 div {
@@ -19,6 +25,8 @@ a {
 
   line-height: 1;
   font-weight: bold;
+  color: black;
+  text-decoration: none;
 }
 
 h1 {
