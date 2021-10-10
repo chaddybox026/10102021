@@ -1,5 +1,6 @@
+/*defaults for the main html elements*/
 html {
-  background-image: url("../img/index/index.jpg");
+    background-image: url("../img/index/index.jpg");
     min-height: 100%;
     height: auto;
     background-position: center;
@@ -10,96 +11,102 @@ html {
 }
 
 body {
-  margin: 0em;
-  padding: 0em;
+    margin: 0em;
+    padding: 0em;
 }
 
 div {
-  margin: 0em;
-  padding: 0em;
+    margin: 0em;
+    padding: 0em;
 }
 
 a {
-  margin: 0em;
-  padding: 1em;
+    margin: 0em;
+    padding: 1em;
 
-  line-height: 1;
-  font-weight: bold;
-  color: black;
-  text-decoration: none;
+    line-height: 1;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
 }
 
 h1 {
-  margin: 0em;
-  padding: 0em;
+    margin: 0em;
+    padding: 0em;
 }
 
 hr {
-  margin: 0.5em 0em;
+    margin: 0.5em 0em;
 }
 
 p {
-  margin: 0em;
-  padding: 0em;
+    margin: 0em;
+    padding: 0em;
 }
 
+/*rules for top menu bar*/
 .top {
-  width: 100%;
+    width: 100%;
 
-  position: fixed;
-  top: 0em;
-  z-index: 1;
+    position: fixed;
+    top: 0em;
+    z-index: 1;
 
-  background-color: gray;
-  opacity: 0.9;
-  box-shadow: 0em 0em 0.5em dimgray;
+    background-color: gray;
+    opacity: 0.9;
+    box-shadow: 0em 0em 0.5em dimgray;
 }
 
 .top-button {
-  margin: 0em;
+    margin: 0em;
 
-  display: block;
-  float: left;
+    display: block;
+    float: left;
 }
 
 .top-button:hover {
-  padding: 1em 0.75em;
-  border-width: 0em 0.25em;
-  border-style: solid;
-  border-color: dimgray;
+    background-color: dimgray;
 }
 
+/*rules for side menu bar*/
 .side {
-  width: 6em;
+    width: 6em;
 
-  position: fixed;
-  top: 3em;
-  left: 2em;
+    position: fixed;
+    top: 3em;
+    left: 2em;
 
-  background-color: lightgrey;
-  opacity: 0.9;
-  box-shadow: 0em 0em 0.5em lightgray;
+    background-color: lightgrey;
+    opacity: 0.9;
+    box-shadow: 0em 0em 0.5em lightgray;
 }
 
 .side-button {
-  padding: 0.5em 1em;
-  display: block;
+    padding: 0.5em 1em;
+    display: block;
 
-  text-align: center;
+    text-align: center;
 }
 
 .side-button:hover {
-  padding: 0.375em 0.5em;
-  border-width: 0.125em 0em;
-  border-style: solid;
-  border-color: darkgray;
+    background-color: darkgray;
 }
 
+/*rules for content divs*/
 .main {
-  margin: 5em 2em 2em 10em;
-  padding: 1em;
+    margin: 5em 2em 2em 10em;
+    padding: 1em;
 
-  background-color: white;
-  opacity: 0.8;
-  box-shadow: 0em 0em 0.5em white;
+    background-color: white;
+    opacity: 0.8;
+    box-shadow: 0em 0em 0.5em white;
+}
+
+.alt {
+    margin: 0em 2em 2em 10em;
+    padding: 1em;
+
+    background-color: white;
+    opacity: 0.8;
+    box-shadow: 0em 0em 0.5em white;
 }
