@@ -1,0 +1,97 @@
+body {
+  margin: 0em;
+  padding: 0em;
+
+  background-image: linear-gradient(to bottom, transparent 270px, rgb(32, 70, 140) 810px),
+    url("../img/index/index.jpg");
+
+  font-family: arial;
+}
+
+div {
+  margin: 0em;
+  padding: 0em;
+}
+
+a {
+  margin: 0em;
+  padding: 1em;
+
+  line-height: 1;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 0em;
+  padding: 0em;
+}
+
+hr {
+  margin: 0.5em 0em;
+}
+
+p {
+  margin: 0em;
+  padding: 0em;
+}
+
+.top {
+  width: 100%;
+
+  position: fixed;
+  top: 0em;
+  z-index: 1;
+
+  background-color: gray;
+  opacity: 0.9;
+  box-shadow: 0em 0em 0.5em dimgray;
+}
+
+.top-button {
+  margin: 0em;
+
+  display: block;
+  float: left;
+}
+
+.top-button:hover {
+  padding: 1em 0.75em;
+  border-width: 0em 0.25em;
+  border-style: solid;
+  border-color: dimgray;
+}
+
+.side {
+  width: 6em;
+
+  position: fixed;
+  top: 3em;
+  left: 2em;
+
+  background-color: lightgrey;
+  opacity: 0.9;
+  box-shadow: 0em 0em 0.5em lightgray;
+}
+
+.side-button {
+  padding: 0.5em 1em;
+  display: block;
+
+  text-align: center;
+}
+
+.side-button:hover {
+  padding: 0.375em 0.5em;
+  border-width: 0.125em 0em;
+  border-style: solid;
+  border-color: darkgray;
+}
+
+.main {
+  margin: 5em 2em 2em 10em;
+  padding: 1em;
+
+  background-color: white;
+  opacity: 0.8;
+  box-shadow: 0em 0em 0.5em white;
+}
